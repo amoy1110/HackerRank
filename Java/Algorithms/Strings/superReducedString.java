@@ -3,7 +3,7 @@ import java.util.*;
 public class Solution {
 
     static String super_reduced_string(String s){
-        ArrayList<Character> arrayList = new ArrayList();
+        ArrayList<Character> arrayList = new ArrayList<>();
 
         // put each character of the string into an ArrayList
         for(int i = 0; i < s.length(); i++){
