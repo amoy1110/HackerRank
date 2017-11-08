@@ -17,7 +17,7 @@ public class Solution {
                 arrayList.remove(i);
                 arrayList.remove(i-1);
 
-                i = 0; //reset i because we just removed duplicates so start at the beginning again
+                i = 0; // make i = 0 because it will be incremented after the body to 1 so we can start at the beginning again.
             }
         }
 
